@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Carlson</title>
+    <meta name="author" content="Carlson | Software Engineer">
+
+    <!------------------ External CSS ------------------>
+    <link rel="stylesheet" href="style.css">
+
+    <!------------------ Box Icons ------------------>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!------------------------ Header starts from here ----------------------->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+
+                <ul class="nav__list">
+                    <li class="nav__item"> <a href="#home" class="nav__link active"> Home </a></li>
+                    <li class="nav__item"> <a href="#about" class="nav__link"> About </a></li>
+                    <li class="nav__item"> <a href="#skills" class="nav__link"> Skills </a></li>
+                    <li class="nav__item"> <a href="#services" class="nav__link"> Services </a></li>
+                    <li class="nav__item"> <a href="#works" class="nav__link"> Works </a></li>
+                    <li class="nav__item"> <a href="#contact" class="nav__link"> Contact </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!------------------------ Header ends from here ----------------------->
+
+    <!------------------------ Body starts from here ----------------------->
+    <main class="l-main">
+        <!------------------- Home ------------------->
+        <section class="home" id="home">
+            <div class="home__container bd-grid">
+                <div class="home__data">
+                    <div class="home__img">
+                        <img src="img/graduate_pic.jpg" alt="professional foto" title="professional foto">
+                    </div>
+
+                    <h1 class="home__title">Carlson Ricardo Salim</h1>
+                    <span class="home__profession">Software Developer</span>
+
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/carlsonsalim" class="home__social-link"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://github.com/carlsonsalimm" class="home__social-link"><i class='bx bxl-github' ></i></a>
+                    </div>
+
+                    <a download="Carlson_Resume.pdf" href="/Carlson_Resume.pdf" class="button home__button">Download Resume</a>
+                </div>
+            </div>
+        </section>
+
+        <!-------------------------- About ---------------------------->
+        <section class="about section" id="about">
+            <span class="section-subtitle">My intro</span>
+
+            <h2 class="section-title">About Me</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__data">
+                    <p class="about__description">
+                        Hello and welcome to my personal portfolio website! My name is Carlson, and I graduated from the University of California, 
+                        San Diego, with a Bachelor of Science in Computer Science. I am passionate about developing innovative software solutions 
+                        and solving complex problems through code. I enjoy working on projects that challenge my creativity and technical skills. 
+                        On this site, you will find a collection of my work, including personal projects, and professional experiences. Feel free 
+                        to explore, and thank you for visiting!                    
+                    </p>
+                    <img src="img/graduate_pic.jpg" alt="Graduate pic" title="Graduate pic" class="about__img">
+                </div>
+
+                <div>
+                    <div class="about__information">
+                        <h3 class="about__information-title">Information</h3>
+    
+                        <div class="about__information-data">
+                            <i class='bx bxs-user about__information-icon'></i>
+                            <span>Carlson Ricardo Salim</span>
+                        </div>
+    
+                        <div class="about__information-data">
+                            <i class='bx bxs-phone about__information-icon'></i>
+                            <span>+62 87772290059</span>
+                        </div>
+    
+                        <div class="about__information-data">
+                            <i class='bx bxs-envelope about__information-icon'></i>
+                            <span>crsalim168@gmail.com</span>
+                        </div>
+                    </div>
+    
+                    <div class="about__information">
+                        <h3 class="about__information-title">Experience and support</h3>
+    
+                        <div class="about__information-data">
+                            <i class='bx bxs-medal about__information-icon'></i>
+                            <div>
+                                <span class="about__information-subtitle">1 Year Job</span>
+                                <span class="about__information-subtitle-small">Experience</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--------------------------------- Skills ------------------------------->
+        <section class="skills section" id="skills">
+            <span class="section-subtitle">Why Choose Me</span>
+            <h2 class="section-title">My expertise Area</h2>
+
+            <div class="skills__container bd-grid">
+                <div class="skills__content">
+                    <h3 class="skills__subtitle">Frontend</h3>
+
+                    <div class="skills__data">
+                        <span class="skills__name">HTML/CSS</span>
+                        <span class="skills__number">80%</span>
+                        <span class="skills__bar skills__html"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">JavaScript</span>
+                        <span class="skills__number">70%</span>
+                        <span class="skills__bar skills__js"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">React</span>
+                        <span class="skills__number">60%</span>
+                        <span class="skills__bar skills__react"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">Angular</span>
+                        <span class="skills__number">40%</span>
+                        <span class="skills__bar skills__angular"></span>
+                    </div>
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__subtitle">Backend</h3>
+
+                    <div class="skills__data">
+                        <span class="skills__name">Python</span>
+                        <span class="skills__number">85%</span>
+                        <span class="skills__bar skills__python"></span>
+                    </div>
+                    <div class="skills__data">
+                        <span class="skills__name">MySQL</span>
+                        <span class="skills__number">80%</span>
+                        <span class="skills__bar skills__sql"></span>
+                    </div>
+                    <div class="skills__data">
+                        <span class="skills__name">C++</span>
+                        <span class="skills__number">70%</span>
+                        <span class="skills__bar skills__c"></span>
+                    </div>
+                    <div class="skills__data">
+                        <span class="skills__name">Java</span>
+                        <span class="skills__number">65%</span>
+                        <span class="skills__bar skills__java"></span>
+                    </div>
+                    <div class="skills__data">
+                        <span class="skills__name">Node.js</span>
+                        <span class="skills__number">60%</span>
+                        <span class="skills__bar skills__node"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!---------------------------- Education ---------------------------->
+        <section class="education section">
+            <span class="section-subtitle">Qualification</span>
+            <h2 class="section-title">My Education</h2>
+
+            <div class="education__container bd-grid">
+                <div class="education__content">
+                    <div>
+                        <h3 class="education__year">2022 - 2024</h3>
+                        <span class="education__university">University of California San Diego</span>
+                    </div>
+
+                    <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <span class="education__line"></span>
+                    </div>
+
+                    <div>
+                        <h3 class="education__race">Bachelor of Science, Computer Science</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="education__content">
+                <div>
+                    <h3 class="education__year">2020 - 2022</h3>
+                    <span class="education__university">Mt. San Antonio College</span>
+                </div>
+
+                <div class="education__time">
+                    <span class="education__rounder"></span>
+                    <span class="education__line"></span>
+                </div>
+
+                <div>
+                    <h3 class="education__race">Associate in Arts Computer Science</h3>
+                </div>
+            </div>
+        </section>
+
+        <!---------------------------------- Works --------------------------->
+        <section class="works section" id="works">
+            <span class="section-subtitle">My portfolio</span>
+            <h2 class="section-title">Recent Works</h2>
+
+            <div class="works__container bd-grid">
+                <div class="works__img" onclick="openModal(0)">
+                    <img src="img/landing-page-stc.png" alt="Web App" title="Web App">
+                    <div class="works__data">
+                        <span class="works__title">App Design</span>
+                    </div>
+                </div>
+                
+
+                <div class="works__img" onclick="openModal(1)">
+                    <img src="img/landing-page.png" alt="Import Cost Estimation program" title="Import Cost Estimation Program">
+                    <div class="works__data">
+                        <a href="#" class="works__link"><i class="bx bx-link-alt"></i></a>
+                        <span class="works__title">Import Cost Estimation program</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal Structure -->
+        <div id="modal" class="modal" onclick="closeModal()">
+            <span class="prev" onclick="changeImage(-1)">&#10094;</span>
+            <img class="modal-content" id="modal-image">
+            <span class="next" onclick="changeImage(1)">&#10095;</span>
+        </div>
+
+    </main>
+    <!------------------------ Body ends from here ----------------------->
+    <!------------------------- Javascript file ---------------------------->
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- credits to github: https://github.com/atulcodex/nihory-basic?tab=Apache-2.0-1-ov-file -->
